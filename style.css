@@ -6,13 +6,23 @@
 }
 
 header {
-    background-color: rgb(0, 81, 255);
+    background-color: rgb(53, 107, 224);
     color: rgb(0, 225, 255);
     display: flex;
     justify-content: space-between;
     padding: 10px;
     position: fixed;
     width: 100%;
+}
+
+.logo {
+    transition: all .5s ease 0s;
+    display: inline-block;
+}
+
+.logo:hover {
+    color: rgb(255, 196, 0);
+    transform: rotate(2deg);
 }
 
 li a {
@@ -40,7 +50,7 @@ a {
 }
 
 #About {
-    height: 100px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,4 +61,38 @@ a {
     font-size: 15px;
     width: 40%;
     text-align: center;
+}
+
+#Team {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+  
+.card {
+    margin-top: 5px;
+    width: 197px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(105, 55, 5);
+}
+
+.card img {
+    width: 100%;
+    height: 105px;
+    border-radius: 5px;
+    object-fit: cover;
 }
