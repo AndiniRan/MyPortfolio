@@ -10,14 +10,17 @@ header {
     color: rgb(0, 225, 255);
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
     position: fixed;
     width: 100%;
 }
 
 .logo {
+    margin-right: auto;
+    padding: 0px;
+    margin-left: 0px;
+    cursor: pointer;
     transition: all .5s ease 0s;
-    display: inline-block;
 }
 
 .logo:hover {
@@ -55,6 +58,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(0, 195, 255);
 }
 
 #About p {
@@ -69,6 +73,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: lightskyblue;
 }
 
 .container {
@@ -95,4 +100,8 @@ a {
     height: 105px;
     border-radius: 5px;
     object-fit: cover;
+}
+
+.card {
+    background-color: rgb(30, 210, 156);
 }
