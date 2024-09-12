@@ -7,12 +7,36 @@
 
 header {
     background-color: rgb(53, 107, 224);
-    color: rgb(0, 225, 255);
+    color: rgb(0, 195, 255);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 15px;
+    padding: 12px;
     position: fixed;
     width: 100%;
+}
+
+#Home {
+    background-color: rgb(54, 154, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 78px;
+}
+
+.logoimg {
+    margin: 10px;
+    height: 185px;
+    width: 185px;
+    border-radius: 100%;
+}
+
+.judul {
+    color: rgb(146, 210, 250);
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 .logo {
@@ -67,20 +91,30 @@ a {
     text-align: center;
 }
 
+#About h2 {
+    margin-top: 10px;
+}
+
 #Team {
-    height: 500px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: lightskyblue;
+    margin-top: auto;
+}
+
+#Team p {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
 }
 
 .container {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -89,7 +123,7 @@ a {
 .card {
     margin-top: 5px;
     width: 197px;
-    height: 450px;
+    height: 485px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid rgb(105, 55, 5);
